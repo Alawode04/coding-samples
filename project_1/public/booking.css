@@ -1,0 +1,14 @@
+.bookBtn{
+    color: rgb(7, 81, 106);
+    font-size: large;
+    border-radius: 7px;
+    width: 150px;
+}
+.bookForm{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    color: rgb(7, 81, 106);
+    font-size: 30px;
+}
