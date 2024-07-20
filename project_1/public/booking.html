@@ -6,8 +6,8 @@
 </head>
 <body>
     <form action="" class="bookForm">
-        <div> 
-            <label for="First name">First name</label>
+        <div>  
+            <label for="First name">First name:</label>
             <input type="text" name=" First_name" placeholder="Enter first name">
         </div>
         <br>
@@ -23,11 +23,18 @@
         <br>
         <div>
             <label for="Phone Number">Phone Number:</label>
-            <input type="number" name="Phone Number" placeholder="Phone Number">
+            <input type="text" name="Phone Number" placeholder="Phone Number">
         </div>
         <br>
+        <div class="form-group">
+            <label>OUR TYPES OF ROOMS</label>
+            <select class="form-control">
+              <option value="standard">Standard</option>
+              <option value="DoubleStandard">Double Standard</option>
+            </select>
+          </div>
        
-        <button class="bookBtn">
+        <button class="bookBtn" onclick="alert('You have successfully booked a room with WonderKing Hotel. For comfirmation, please call: +234 803 365 3919')">
             <h3>BOOK</h3>
         </button>
     </form>
