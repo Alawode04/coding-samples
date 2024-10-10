@@ -22,3 +22,7 @@
     background-color: white;
     margin: 5px;
 }
+.bookForm ::placeholder{
+    width: 200px;
+    height: 200px;
+}
